@@ -1,0 +1,842 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.1f1 (4fead5835099) revision 5237461'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16158 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Work/OneDrive - University of Louisville/Documents/Spring 2024/CSE_622/SpacePursuit
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56608
+Successfully changed project path to: C:/Users/Work/OneDrive - University of Louisville/Documents/Spring 2024/CSE_622/SpacePursuit
+C:/Users/Work/OneDrive - University of Louisville/Documents/Spring 2024/CSE_622/SpacePursuit
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25564] Host "[IP] 50.30.139.209 [Port] 0 [Flags] 2 [Guid] 2252140196 [EditorId] 2252140196 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QNOENOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25564] Host "[IP] 50.30.139.209 [Port] 0 [Flags] 2 [Guid] 2252140196 [EditorId] 2252140196 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QNOENOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 19.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.1f1 (4fead5835099)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Work/OneDrive - University of Louisville/Documents/Spring 2024/CSE_622/SpacePursuit/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.2879
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.260333 seconds.
+- Loaded All Assemblies, in  5.270 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2891ms)
+		BeginReloadAssembly (753ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (748ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2283ms)
+				TypeCache.Initialize (2250ms)
+					TypeCache.ScanAssembly (2218ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (5755ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (120ms)
+				SetLoadedEditorAssemblies (70ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (3824ms)
+				ProcessInitializeOnLoadMethodAttributes (1726ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Work\OneDrive - University of Louisville\Documents\Spring 2024\CSE_622\SpacePursuit\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Work\OneDrive - University of Louisville\Documents\Spring 2024\CSE_622\SpacePursuit\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.785 seconds
+Refreshing native plugins compatible for Editor in 9.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (389ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		LoadAllAssembliesAndSetupDomain (1392ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1305ms)
+				TypeCache.Initialize (503ms)
+					TypeCache.ScanAssembly (496ms)
+				ResolveRequiredComponents (30ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (904ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (620ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 12.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (3.4 MB). Loaded Objects now: 5578.
+Memory consumption went from 0.79 GB to 0.78 GB.
+Total: 9.611600 ms (FindLiveObjects: 0.876600 ms CreateObjectMapping: 1.690100 ms MarkObjects: 4.396100 ms  DeleteObjects: 2.646600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 223034.744759 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab
+  artifactKey: Guid(af02f4c9657b3244d8afdbb272e74d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Core.prefab using Guid(af02f4c9657b3244d8afdbb272e74d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec7bc28c70633548321fec762826c60') in 2.443689 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab
+  artifactKey: Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab using Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61c9e18976da05628bc3bfb13e65988') in 0.770114 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab
+  artifactKey: Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab using Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7022db5cd68c4d747f5765f3f20c9799') in 0.710383 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab
+  artifactKey: Guid(65d8e34378667a14ea9539c5dc34457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Engine.prefab using Guid(65d8e34378667a14ea9539c5dc34457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad928b6817a2673dffc86c39339d0e6') in 0.248952 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 60.278619 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a7e75600b3c37ebd159510615c906e6') in 3.139760 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.027503 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX
+  artifactKey: Guid(c121b1640d073a14382ea0f68499c85e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing1.FBX using Guid(c121b1640d073a14382ea0f68499c85e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a8976a6bdb2381fae64e53b3c396dc7') in 1.078745 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.014618 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow10.prefab
+  artifactKey: Guid(38a27599d83c553428c95896320274d0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow10.prefab using Guid(38a27599d83c553428c95896320274d0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2a96689cf2716773f6a8800e40d558a') in 2.165358 seconds 
+Number of asset objects unloaded after import = 289
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab
+  artifactKey: Guid(8b76e784a0aed8245b1f78c3f71461ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow15.prefab using Guid(8b76e784a0aed8245b1f78c3f71461ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b091cc1569484c128a0be6d894514b4') in 1.774759 seconds 
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.011849 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Plasma_LP_Red.prefab
+  artifactKey: Guid(76fb7025f7e56934580f6fcb647b40b5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Plasma_LP_Red.prefab using Guid(76fb7025f7e56934580f6fcb647b40b5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e3e01a94a75abe315938527b8f3cc54') in 1.553697 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4008384198959e7c273836bdcd126c53') in 1.351389 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab
+  artifactKey: Guid(45b62242ff99b0a48a47f713cd6d1687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Red.prefab using Guid(45b62242ff99b0a48a47f713cd6d1687) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cef3fcee2eb9f64a7ec50fb17bc1459e') in 0.789549 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrowModules.fbx
+  artifactKey: Guid(473537a582752b44380860c089ba7bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Meshes/StarSparrowModules.fbx using Guid(473537a582752b44380860c089ba7bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be7a5e374053777235425c171c9a1ea7') in 1.772111 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.007371 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_Blue.mat
+  artifactKey: Guid(8f9ee6e42e2005942a5b092cb9f2087c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Materials/StarSparrow_Blue.mat using Guid(8f9ee6e42e2005942a5b092cb9f2087c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1965cc28971e41288a944811c7d92e5d') in 1.463725 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Grey.png
+  artifactKey: Guid(8b0667e0c2229d840b018e5b0ad2d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/StarSparrow_Grey.png using Guid(8b0667e0c2229d840b018e5b0ad2d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed36140e01d87fe5a2d8b0b69974d52a') in 1.498885 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001244 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a06ee647f75c71262c4e5df8679c6ea') in 1.229843 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016867 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab
+  artifactKey: Guid(b69ddbc1b5379784c872b0996311fd12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab using Guid(b69ddbc1b5379784c872b0996311fd12) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c237d1d103688ec0cf7592e908f8e6c6') in 2.146302 seconds 
+Number of asset objects unloaded after import = 293
+========================================================================
+Received Import Request.
+  Time since last request: 0.001019 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_White.png
+  artifactKey: Guid(11713f926c779554face7d8072f12492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/StarSparrow_White.png using Guid(11713f926c779554face7d8072f12492) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48669c5e326d9c8e8aad6b665615d115') in 0.662318 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001098 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab
+  artifactKey: Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab using Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '780e5b9b7a3e2425aa9ee1e121ead759') in 1.979131 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Scripts/Jet2Script.cs
+  artifactKey: Guid(702fc4a8a0e94a7419794e2797653db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Jet2Script.cs using Guid(702fc4a8a0e94a7419794e2797653db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '043ced9444ea758209196fad3823c200') in 0.628929 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006152 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_Mirrored_LP_Red.prefab
+  artifactKey: Guid(ead3ebac099823941bb3128d6fd11249) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_Mirrored_LP_Red.prefab using Guid(ead3ebac099823941bb3128d6fd11249) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cae741cdba94f4e27bf468394c24f6b0') in 1.582379 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab
+  artifactKey: Guid(704ae8c099e4b6a4ea1b5bd83d020432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow13.prefab using Guid(704ae8c099e4b6a4ea1b5bd83d020432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9614ca72ec68c44df42a84f9b4641e24') in 1.366629 seconds 
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.016936 seconds.
+  path: Assets/StarSparrow/Scenes/BonusContent.unity
+  artifactKey: Guid(ad424019336bdbe41bd98becc7971008) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Scenes/BonusContent.unity using Guid(ad424019336bdbe41bd98becc7971008) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/StarSparrow/Scenes/BonusContent.unity additively'
+Loaded scene 'Assets/StarSparrow/Scenes/BonusContent.unity'
+	Deserialize:            18.813 ms
+	Integration:            2552.168 ms
+	Integration of assets:  0.029 ms
+	Thread Wait Time:       0.047 ms
+	Total Operation Time:   2571.057 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ef88fc88aaf0f82d6f29c2270808130') in 3.562438 seconds 
+Number of asset objects unloaded after import = 553
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/StarSparrow/Materials/StarSparrow_White.mat
+  artifactKey: Guid(508a5c5900b3d654ebf40cf88ed14dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Materials/StarSparrow_White.mat using Guid(508a5c5900b3d654ebf40cf88ed14dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '558b3644a53dec714bb213353a173594') in 4.134642 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.002621 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab
+  artifactKey: Guid(d9b826fbbb3615848bdc7f536dd1bb71) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow12.prefab using Guid(d9b826fbbb3615848bdc7f536dd1bb71) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0b78b96210af1c5d5ca72f44aba7d33') in 2.297930 seconds 
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab
+  artifactKey: Guid(fffe62ec194d0944ab13a6eea990288b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow19.prefab using Guid(fffe62ec194d0944ab13a6eea990288b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60cab28113d027a191519a92b62ed5ba') in 0.864561 seconds 
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 0.001899 seconds.
+  path: Assets/Scripts/Jet1Script.cs
+  artifactKey: Guid(3ab5394009f54ef4da96640ff622503b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Jet1Script.cs using Guid(3ab5394009f54ef4da96640ff622503b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7754416d4841a30b34dd99cbd735acf') in 1.182431 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051658 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow10.fbx
+  artifactKey: Guid(e84db841a9a98e444bd4466e423506d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Meshes/StarSparrow10.fbx using Guid(e84db841a9a98e444bd4466e423506d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90558128eb4dbb6a55ccf084d6df76b1') in 1.114923 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.380243 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow10.prefab
+  artifactKey: Guid(b17882d066aba394dac85746d25eadfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow10.prefab using Guid(b17882d066aba394dac85746d25eadfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f432bd0f653a56127234bba273fc0fd') in 0.243708 seconds 
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000874 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow7.prefab
+  artifactKey: Guid(65767d57c890045419482f2fc465c2ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow7.prefab using Guid(65767d57c890045419482f2fc465c2ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfc46f15689a7072c0f3c50535b58c2e') in 2.049436 seconds 
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 0.001045 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow6.prefab
+  artifactKey: Guid(26d8a77ffa920e842bd70c85631a743c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow6.prefab using Guid(26d8a77ffa920e842bd70c85631a743c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ab0e56d74dd9a3e5da9f31b208398e2') in 1.846702 seconds 
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 0.009785 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Blue.prefab
+  artifactKey: Guid(f603e71ddc270d54192200e95673e2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/Asteroid Lava Blue.prefab using Guid(f603e71ddc270d54192200e95673e2a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85bea49e54c7bcb6a14e8782cbb26b0b') in 1.834930 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Engine_LP_Red.prefab
+  artifactKey: Guid(747c4056d416c6d43a299c4473100fed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Engine_LP_Red.prefab using Guid(747c4056d416c6d43a299c4473100fed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd000ccb7ecbff4f71653da5077f8726d') in 1.094061 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab
+  artifactKey: Guid(1c3973db67bc50449bfac34c2093ea4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Plasma.prefab using Guid(1c3973db67bc50449bfac34c2093ea4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '215329eda9b3aacbc76dca8d620fcb51') in 2.076202 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat
+  artifactKey: Guid(191ced9846689714398ed909c5e9284a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Materials/BonusContent/CloudsRed.mat using Guid(191ced9846689714398ed909c5e9284a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76215c7f5e607375e9fd1efca56c42fa') in 1.355015 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.049027 seconds.
+  path: Assets/StarSparrow/Materials/Extra/StarSparrow_Yellow.mat
+  artifactKey: Guid(248508f42dcd00049925f29941b22e00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Materials/Extra/StarSparrow_Yellow.mat using Guid(248508f42dcd00049925f29941b22e00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3ffb43ee31bf90db36b7146f9bc38e6') in 0.804431 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.081559 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab
+  artifactKey: Guid(19bc9763fa1de3a46b9e632135faf962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab using Guid(19bc9763fa1de3a46b9e632135faf962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0eb4bd78bfd4d8b49dc82ee96f1968c5') in 1.285181 seconds 
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.105567 seconds.
+  path: Assets/StarSparrow/Scenes/Settings/LightingSettings.lighting
+  artifactKey: Guid(cf55f26a31b9b854e9192464da5e21e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Scenes/Settings/LightingSettings.lighting using Guid(cf55f26a31b9b854e9192464da5e21e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c7567925912eec746cbd987a1177b5b') in 0.892166 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab
+  artifactKey: Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Wing.prefab using Guid(68648d1973e7d9e4283b2d0b7eb3e539) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7e7570dcc9b9442bfdaaabca5668b3d') in 1.193722 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab
+  artifactKey: Guid(8b227e0429c621940acb9e2e8d18d12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/Missile.prefab using Guid(8b227e0429c621940acb9e2e8d18d12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '330a7434aaf414614ffdf25a9aea2c20') in 0.866313 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.008625 seconds.
+  path: Assets/StarSparrow/Textures/Masks/StarSparrow_Mask4.png
+  artifactKey: Guid(730537449c6f80c43b9bf3c310248236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/Masks/StarSparrow_Mask4.png using Guid(730537449c6f80c43b9bf3c310248236) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb27bd477bc71efbb7f6511ac837083f') in 0.748464 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.027895 seconds.
+  path: Assets/StarSparrow/Textures/Masks/Readme.txt
+  artifactKey: Guid(9b27882b1206bad4aaee5f7bdebcbae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/Masks/Readme.txt using Guid(9b27882b1206bad4aaee5f7bdebcbae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac9861fa5747b55e30ff6a0a8d25386c') in 1.767836 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003932 seconds.
+  path: Assets/StarSparrow/SRP/HDRP_Upgrade.unitypackage
+  artifactKey: Guid(17b31a17764dd57479698f9787d395b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/SRP/HDRP_Upgrade.unitypackage using Guid(17b31a17764dd57479698f9787d395b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7234835dee424809a8f40543f553d2a1') in 3.135069 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004107 seconds.
+  path: Assets/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5be2b1a0acaee0718bbb0a649dec0273') in 5.112049 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Thruster_LP_Red.prefab
+  artifactKey: Guid(81904476cad566346b1f6a2cc9299080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Thruster_LP_Red.prefab using Guid(81904476cad566346b1f6a2cc9299080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5c9b71e4f3056152a33b63efcb2c72e') in 5.420260 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab
+  artifactKey: Guid(49d0b2e8d6cdd16458fc0be42a40d88b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab using Guid(49d0b2e8d6cdd16458fc0be42a40d88b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91aca0a76c36c0eb503973b88271bb51') in 4.431559 seconds 
+Number of asset objects unloaded after import = 172
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab
+  artifactKey: Guid(dcdbafa8386db084794d27ea12244cf3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab using Guid(dcdbafa8386db084794d27ea12244cf3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae85706a1a8b4e74f2202d501879e896') in 3.522143 seconds 
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.001782 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16a0e4d25a1ce749ac97e55f53073043') in 1.820404 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.117836 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png
+  artifactKey: Guid(56788cf7355aae243a176c2002e84e15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/BonusContent/FlyingInsect/FlyingInsect_Normal.png using Guid(56788cf7355aae243a176c2002e84e15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b307a9b693ac2bbcb0f80016378bcfb') in 1.184710 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010572 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab
+  artifactKey: Guid(3322c842c425b864ea8eb933bff766ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab using Guid(3322c842c425b864ea8eb933bff766ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '549ce0914d5e1a94afe31c558c432ac4') in 0.764165 seconds 
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
+  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0d8e8d58b84c876ceda7c8494ead7b2') in 3.533263 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_2_LP_Red.prefab
+  artifactKey: Guid(f3f694fddb9ec5649ba658551ea3d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_2_LP_Red.prefab using Guid(f3f694fddb9ec5649ba658551ea3d4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4762fc1714b75214c614d0e02cc97567') in 1.750642 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png
+  artifactKey: Guid(b617caa5ef54773409f566190c82a16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_Albedo.png using Guid(b617caa5ef54773409f566190c82a16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91cf30b4dc74739b566701ad4c8283dc') in 1.846083 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab
+  artifactKey: Guid(8c22678d7aa562145804b6f0af7e603a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/Tinniuq Planet.prefab using Guid(8c22678d7aa562145804b6f0af7e603a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ba5456aa52260a2ab3b2360406b0b5b') in 1.489834 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.004474 seconds.
+  path: Assets/Settings/URP-Performant-Renderer.asset
+  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f8bc1988d4ce8ccf1be59f3515bc2cf') in 1.420604 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.025680 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing3.FBX
+  artifactKey: Guid(b194a334c875d914aa66569a0a81be6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Meshes/BonusContent/FlyingInsects3_Wing3.FBX using Guid(b194a334c875d914aa66569a0a81be6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65fa663ce14985923157f672c229af3e') in 2.615869 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red.prefab
+  artifactKey: Guid(3ccd65918d2f84f48b355c31f6301a1d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_1_LP_Red.prefab using Guid(3ccd65918d2f84f48b355c31f6301a1d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15e46217ec22ddb59ac6bbe68321ac3a') in 0.935570 seconds 
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png
+  artifactKey: Guid(35c503943e9b94a49a5cf140d6154a75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/BonusContent/Planet/Tinniuq_MetallicSmoothness.png using Guid(35c503943e9b94a49a5cf140d6154a75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b96c8ee071477fe5a19ceb9f95e28a6d') in 1.059311 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.014284 seconds.
+  path: Assets/StarSparrow/Readme/Readme Files/LayoutStarSparrow.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Readme/Readme Files/LayoutStarSparrow.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8a5e2121013f3bef92b269f34e70eb8') in 3.708550 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Plasma_LP_Red.prefab
+  artifactKey: Guid(76fb7025f7e56934580f6fcb647b40b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Plasma_LP_Red.prefab using Guid(76fb7025f7e56934580f6fcb647b40b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1a226af2da1e7e2d26d4b70828fca7c') in 3.061886 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007459 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png
+  artifactKey: Guid(e313900dfc5e97e418383a91c126fe36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/BonusContent/Asteroids/AsteroidsLava_EmissionRed.png using Guid(e313900dfc5e97e418383a91c126fe36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ed36311f7e33977189425389a6ce751') in 1.791008 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow11.fbx
+  artifactKey: Guid(f7af603aac7d7734dafa2b05c8b7fa60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Meshes/StarSparrow11.fbx using Guid(f7af603aac7d7734dafa2b05c8b7fa60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2517b4c960b8e35b3cc24df9ed711f80') in 0.790226 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png
+  artifactKey: Guid(98a18c0634080da40a446c86ad6083b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/BonusContent/MissileBomb/Bomb_Normal.png using Guid(98a18c0634080da40a446c86ad6083b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88b013d7a7d8724d046bd8776dc781fc') in 0.553249 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab
+  artifactKey: Guid(19bc9763fa1de3a46b9e632135faf962) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab using Guid(19bc9763fa1de3a46b9e632135faf962) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f428f11dfade52b7806c249206a615d0') in 0.951633 seconds 
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.001394 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab
+  artifactKey: Guid(b69ddbc1b5379784c872b0996311fd12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow9.prefab using Guid(b69ddbc1b5379784c872b0996311fd12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84ebfa57ae4ba64496ef8a6410c23c03') in 2.757434 seconds 
+Number of asset objects unloaded after import = 216
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab
+  artifactKey: Guid(30e7e44d738e12b4d90219afe4380ab9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/BonusContent/PolygonSpaceship/StarSparrow_Wing_1_LP_Red.prefab using Guid(30e7e44d738e12b4d90219afe4380ab9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '075b13f8fd234f076d6ed361b0182e19') in 1.069351 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/StarSparrow/Meshes/StarSparrow1.fbx
+  artifactKey: Guid(f075e254465ab4f4ca310cbec3ed905b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Meshes/StarSparrow1.fbx using Guid(f075e254465ab4f4ca310cbec3ed905b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f90fca3938826fe6290c58299ddb63d0') in 0.943034 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat
+  artifactKey: Guid(bccd59c329f7a11449e3220748484c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Materials/Extra/StarSparrow_Black.mat using Guid(bccd59c329f7a11449e3220748484c14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83bc55e52789c4bca99ea2b2c62b6f84') in 2.014688 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/StarSparrow/Textures/StarSparrow_Normal.png
+  artifactKey: Guid(c3269f7bf26348f49ac936a2733e5b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Textures/StarSparrow_Normal.png using Guid(c3269f7bf26348f49ac936a2733e5b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9478f57596628b28ce4847e269764b4') in 1.917083 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008383 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab
+  artifactKey: Guid(876a8abf851065f47b92622ae857db27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab using Guid(876a8abf851065f47b92622ae857db27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c77a0d338ed23cedadb8c203ca86adf0') in 0.608407 seconds 
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/StarSparrow/Meshes/BonusContent/Planet.FBX
+  artifactKey: Guid(614d5d16c663aaf4e8a724ee026d8cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Meshes/BonusContent/Planet.FBX using Guid(614d5d16c663aaf4e8a724ee026d8cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42c96d21ffca5eb581e585b376ec2319') in 1.689606 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.035522 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab
+  artifactKey: Guid(5a2100a36f73c5d4d8acbe474f591caf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow16.prefab using Guid(5a2100a36f73c5d4d8acbe474f591caf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c7375310f48bba45313997319d34d55') in 3.042563 seconds 
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 0.007329 seconds.
+  path: Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab
+  artifactKey: Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modules/StarSparrow_Fin.prefab using Guid(f3f5a95bf53de5744b3140ce9f35902f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd03e798d375825f9ae8144a3ed5bbd31') in 3.323589 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001116 seconds.
+  path: Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab
+  artifactKey: Guid(49d0b2e8d6cdd16458fc0be42a40d88b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Modular Examples/StarSparrow5.prefab using Guid(49d0b2e8d6cdd16458fc0be42a40d88b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd678f99a8b3567d3cc7b58b96a2abcf7') in 3.106726 seconds 
+Number of asset objects unloaded after import = 267
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab
+  artifactKey: Guid(21b471887873bf04aa486f9dd5f0cd62) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab using Guid(21b471887873bf04aa486f9dd5f0cd62) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73f2f7e202e40179088d649790e37d73') in 1.626835 seconds 
+Number of asset objects unloaded after import = 72
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
